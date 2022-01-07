@@ -1,0 +1,88 @@
+MASTER ANSIBLE
+# INSTALACAO
+    yum install pip3-python
+    yum install ansible ou pip3 install ansible
+
+# ADHOC
+    vim hosts: 192.168.15.102
+    ansible -i hosts 
+    ansible -i hosts all -u user -k -m ping
+    ansible 192.168.15.102 -u user -k -m setup
+    ansible 192.168.15.102 -u user -k -m systemd -a "name=ssh state=restarted"
+    -K > pede senha elevação privilegio 
+    -b > eleva privilegio 
+    ansible 192.168.15.102 -u user -k -m shell -a "systemctl status ssh"
+    -v > verbose
+    SSH:
+        ssh-keygen -t rsa -b 2048
+        ssh-copy-id -i id_rsa user@192.168.15.102
+
+#INVENTORY FILE 
+    /etc/ansible/hosts
+    vim hosts > 
+               [servidores_web]
+               192.168.254.201
+
+               [servidores_2]    
+               serv2    ansible_ssh_host=192.168.254.200
+               
+               [servidores_bd]
+               mysql    ansible_ssh_host=192.168.254.202 ansible_shell_executable=/bin/bash ansible_ssh_user=ph ansible_ssh_pass=123qwe ansible_become=yes ansible_become_method=sudo ansible_become_user=user
+               
+               [servidores_2:vars]
+               ansible_ssh_port=22
+               ansible_ssh_user=user
+               ansible_ssh_pass=qwe123
+               ansible_become=yes
+               ansible_become_method=sudo
+               ansible_become_user=user
+               ansible_become_pass=qwe123
+               ansible_conection=ssh
+
+
+               [servidores:children]
+               servidores_web
+               servidores_bd
+
+
+
+    ansible -i hosts servidores_web -m ping -u user -k
+    ansible -i hosts servidores -m ping -u user -k   
+    ansible -i hosts mysql -m shell -a "sudo apt update" 
+    ansible -i hosts serv2 -m ping
+
+
+#ROLES
+Estrutura padrão
+roles 
+    tasks     <-  lista tarefas serem executadas
+    handlers  <-  manipuladores de eventos acionados pelas tasks
+    files     <-  arquivos utilizados para deploys
+    templates <-  modelo deploy 
+    vars      <-  variaveis
+    defaults  <-  variaveis padrões
+    meta      <-  dependencia de uma tole por outra role
+    
+    variaveis
+    arquivos para guardar as variaveis: (ordem do menor para o maior)
+    role/default/main.yml
+    inventory files
+    hosts_vars/all
+    group_vars/all
+    roles/vars/main.yml
+
+    System Facts são descobertos pelo ansible: ansible <hostname> -m setup
+
+
+
+
+
+
+
+
+
+
+
+
+
+

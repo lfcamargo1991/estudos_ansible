@@ -1,0 +1,308 @@
+[k8s_lab]
+jenkins_lab ansible_ssh_host=172.16.12.16 ansible_ssh_pass=qwer1234@
+
+[api.ead.cesumar.br]
+REDHAT-WEB126-C13 ansible_ssh_host=172.16.0.76 ansible_ssh_pass=qPaTQTgi1%t
+REDHAT-WEB127-c13 ansible_ssh_host=172.16.0.77 ansible_ssh_pass=rghKYUQ*B7lo
+
+[apiava]
+REDHAT-WEB61-c07 ansible_ssh_host=172.16.4.28 ansible_ssh_pass=anFwQksViL1h$
+REDHAT-NFS06-C07 ansible_ssh_host=172.16.4.100 ansible_ssh_pass=bVf!hrw9kP
+REDHAT-WEB65-c07 ansible_ssh_host=172.16.4.32 ansible_ssh_pass=dnjhmCu3JZ-WW
+REDHAT-WEB68-c07 ansible_ssh_host=172.16.4.35 ansible_ssh_pass=e3gMMJxVQ^Gi
+REDHAT-WEB71-c07 ansible_ssh_host=172.16.4.38 ansible_ssh_pass=eJumRE)oTD1qVh
+REDHAT-WEB75-c07 ansible_ssh_host=172.16.4.42 ansible_ssh_pass=fkFOZY7=Wv
+REDHAT-WEB69-c07 ansible_ssh_host=172.16.4.36 ansible_ssh_pass=iRTU4UoAlT&
+REDHAT-WEB72-c07 ansible_ssh_host=172.16.4.39 ansible_ssh_pass=jN-YBVhU5kSWa
+REDHAT-WEB63-c07 ansible_ssh_host=172.16.4.30 ansible_ssh_pass=jwVRTRS1*MC
+REDHAT-WEB57-c07 ansible_ssh_host=172.16.4.24 ansible_ssh_pass=jY$7oOBWgp
+REDHAT-WEB66-c07 ansible_ssh_host=172.16.4.33 ansible_ssh_pass=k&tk0IHyQEjC
+REDHAT-WEB70-c07 ansible_ssh_host=172.16.4.37 ansible_ssh_pass=mVQi$BNGdM1Q
+REDHAT-WEB56-c07 ansible_ssh_host=172.16.4.23 ansible_ssh_pass=oa6jELX%anvZNN
+REDHAT-WEB59-c07 ansible_ssh_host=172.16.4.26 ansible_ssh_pass=ognEoGVCUU^1
+REDHAT-WEB64-c07 ansible_ssh_host=172.16.4.31 ansible_ssh_pass=p(9QNohwacG
+REDHAT-WEB67-c07 ansible_ssh_host=172.16.4.34 ansible_ssh_pass=q5(oUpJL
+REDHAT-WEB60-c07 ansible_ssh_host=172.16.4.27 ansible_ssh_pass=sWGrHQmXNXr3*
+REDHAT-WEB73-c07 ansible_ssh_host=172.16.4.40 ansible_ssh_pass=vH8OHrWyTV^T
+REDHAT-WEB62-c07 ansible_ssh_host=172.16.4.29 ansible_ssh_pass=w)bFS7tcU
+REDHAT-WEB74-c07 ansible_ssh_host=172.16.4.41 ansible_ssh_pass=wVo7rEQX-
+REDHAT-WEB58-c07 ansible_ssh_host=172.16.4.25 ansible_ssh_pass=xzkAR3eG$cGM
+
+[apicentral]
+REDHAT-WEB341-C34 ansible_ssh_host=172.16.5.105 ansible_ssh_pass=aLl5NKIf(JqeDx
+REDHAT-WEB338-C34 ansible_ssh_host=172.16.5.102 ansible_ssh_pass=g^EYyU9qU
+REDHAT-WEB339-C34 ansible_ssh_host=172.16.5.103 ansible_ssh_pass=gp$QKBv4NfksO
+REDHAT-WEB340-C34 ansible_ssh_host=172.16.5.104 ansible_ssh_pass=hrzSs<F9OYIrd
+
+[apilocalava]
+REDHAT-WEB84-c08 ansible_ssh_host=172.16.4.51 ansible_ssh_pass=b7DER$MUA
+REDHAT-WEB79-c08 ansible_ssh_host=172.16.4.46 ansible_ssh_pass=bJjpC8APJ(
+REDHAT-WEB82-c08 ansible_ssh_host=172.16.4.49 ansible_ssh_pass=j^wytpX3FE
+REDHAT-WEB76-c08 ansible_ssh_host=172.16.4.43 ansible_ssh_pass=jkYwt=iAF0
+REDHAT-WEB78-c08 ansible_ssh_host=172.16.4.45 ansible_ssh_pass=lsq*RaKteuE9
+REDHAT-WEB77-c08 ansible_ssh_host=172.16.4.44 ansible_ssh_pass=lWq7MATVOjW^L
+REDHAT-WEB81-c08 ansible_ssh_host=172.16.4.48 ansible_ssh_pass=mM4VNbe%I
+REDHAT-WEB80-c08 ansible_ssh_host=172.16.4.47 ansible_ssh_pass=mX%8yTdmxp
+REDHAT-WEB85-c08 ansible_ssh_host=172.16.4.52 ansible_ssh_pass=piIU2nFWGnF$
+REDHAT-WEB83-c08 ansible_ssh_host=172.16.4.50 ansible_ssh_pass=ql8qDLQrSE%zx
+
+[ava]
+REDHAT-WEB192-c06 ansible_ssh_host=172.16.4.196 ansible_ssh_pass=cDYM4JbM&wecVM
+REDHAT-WEB183-c06-restore ansible_ssh_host=172.16.4.187 ansible_ssh_pass=ckbAzEEo#3L
+REDHAT-WEB184-c06 ansible_ssh_host=172.16.4.188 ansible_ssh_pass=fTtp6(CDD
+REDHAT-WEB188-c06-restore ansible_ssh_host=172.16.4.192 ansible_ssh_pass=lUzZd5syk-
+REDHAT-WEB187-c06 ansible_ssh_host=172.16.4.191 ansible_ssh_pass=ndJ3Qu@iWnY
+REDHAT-NFS07-c06 ansible_ssh_host=172.16.4.101 ansible_ssh_pass=nLgtU@qN9tTA
+REDHAT-WEB186-c06 ansible_ssh_host=172.16.4.190 ansible_ssh_pass=uU)u7RRM
+REDHAT-WEB36-c06 ansible_ssh_host=172.16.4.3 ansible_ssh_pass=vYyOTKmM1YE@a
+
+[bd]
+REDHAT-SQL04 ansible_ssh_host=172.16.4.142 ansible_ssh_pass=kIx>xHmln0jcB
+REDHAT-SQL05 ansible_ssh_host=172.16.1.122 ansible_ssh_pass=nEH=ZCN5SFY
+REDHAT-PSQL01 ansible_ssh_host=172.16.0.73 ansible_ssh_pass=qUk*l2bGbXf
+REDHAT-SQL03 ansible_ssh_host=172.16.1.237 ansible_ssh_pass=sil$cExkJ4
+REDHAT-SQL02 ansible_ssh_host=172.16.0.250 ansible_ssh_pass=zn>pQMJP1oPoNw
+
+[conteudoava]
+REDHAT-WEB97-c09 ansible_ssh_host=172.16.4.64 ansible_ssh_pass=bNzD@3OU
+REDHAT-WEB100-c09 ansible_ssh_host=172.16.4.67 ansible_ssh_pass=ioG=PI8RoqjPx
+REDHAT-WEB105-c09 ansible_ssh_host=172.16.4.72 ansible_ssh_pass=l-VFqSSP1xk
+REDHAT-WEB103-c09 ansible_ssh_host=172.16.4.70 ansible_ssh_pass=n2=UhkWIVoyb
+REDHAT-WEB101-c09 ansible_ssh_host=172.16.4.68 ansible_ssh_pass=pbDV*6wX
+REDHAT-WEB98-c09 ansible_ssh_host=172.16.4.65 ansible_ssh_pass=q(Ax6zBZWzWaZ
+REDHAT-WEB96-c09 ansible_ssh_host=172.16.4.63 ansible_ssh_pass=vX2lQm-vq
+REDHAT-WEB104-c09 ansible_ssh_host=172.16.4.71 ansible_ssh_pass=vyfEKG7OZ)pmFG
+REDHAT-WEB99-c09 ansible_ssh_host=172.16.4.66 ansible_ssh_pass=zR)sasZ6
+REDHAT-WEB102-c09 ansible_ssh_host=172.16.4.69 ansible_ssh_pass=zW^oOWn7wvyj
+
+[devops]
+redhatdso01 ansible_ssh_host= 172.16.1.18 ansible_ssh_pass=aqswdeqwe123@
+redhatdso02 ansible_ssh_host= 172.16.1.87 ansible_ssh_pass=aqswdeqwe123@
+redhatdso03 ansible_ssh_host= 172.16.1.103 ansible_ssh_pass=aqswdeqwe123@
+redhatdso04 ansible_ssh_host= 172.16.1.105 ansible_ssh_pass=aqswdeqwe123@
+redhatdso05 ansible_ssh_host= 172.16.1.121 ansible_ssh_pass=aqswdeqwe123@
+redhatdso06 ansible_ssh_host= 172.16.1.126 ansible_ssh_pass=aqswdeqwe123@
+REDHATDSO07 ansible_ssh_host= 172.16.1.212 ansible_ssh_pass=aqswdeqwe123@
+REDHATDSO08 ansible_ssh_host= 172.16.1.213 ansible_ssh_pass=aqswdeqwe123@
+REDHATDSO09 ansible_ssh_host= 172.16.1.214 ansible_ssh_pass=aqswdeqwe123@
+REDHATDSO10 ansible_ssh_host= 172.16.1.215 ansible_ssh_pass=aqswdeqwe123@
+REDHATDSO11 ansible_ssh_host= 172.16.1.216 ansible_ssh_pass=aqswdeqwe123@
+REDHATDSO12 ansible_ssh_host= 172.16.1.217 ansible_ssh_pass=aqswdeqwe123@
+
+[impressaoprovas]
+REDHAT-APP64-C25 ansible_ssh_host=172.16.5.77 ansible_ssh_pass=fK%6IxLiU
+REDHAT-APP63-C25 ansible_ssh_host=172.16.5.76 ansible_ssh_pass=jC2mOcNhVJ^
+REDHAT-APP62-C25 ansible_ssh_host=172.16.5.75 ansible_ssh_pass=pMPQb2DCqkw-
+REDHAT-APP61-C25 ansible_ssh_host=172.16.5.74 ansible_ssh_pass=uDpk8WcYJD*V
+
+[incricoes]
+REDHAT-WEB342-C35 ansible_ssh_host=172.16.5.106 ansible_ssh_pass=lruj3BUWfcRK<
+REDHAT-WEB343-C35 ansible_ssh_host=172.16.5.107 ansible_ssh_pass=lruj3BUWfcRK<
+REDHAT-WEB347-C35 ansible_ssh_host=172.16.5.4 ansible_ssh_pass=uF3OBBqO*
+REDHAT-WEB344-C35 ansible_ssh_host=172.16.5.108 ansible_ssh_pass=yQdhSCJG4$zD
+REDHAT-WEB345-C35 ansible_ssh_host=172.16.5.109 ansible_ssh_pass=zAWXPxkn5gaw=
+
+[integradorgsuite-api]
+CTOS-SRV-APP02-C24 ansible_ssh_host=172.16.0.133 ansible_ssh_pass=aAVE5h^CQX
+CTOS-SRV-APP03-C24 ansible_ssh_host=172.16.0.134 ansible_ssh_pass=oA&XTeA6YPo
+CTOS-SRV-APP05-C24 ansible_ssh_host=172.16.0.135 ansible_ssh_pass=q^H5fEBfNRnJ
+CTOS-SRV-APP01-C24 ansible_ssh_host=172.16.0.136 ansible_ssh_pass=qNYzYMWZ0(
+
+[intranet]
+LNX_srv-intranet04 ansible_ssh_host=172.16.0.89 ansible_ssh_pass=b*b2sTsPKbI
+LNX_srv-intranet01 ansible_ssh_host=172.16.1.36 ansible_ssh_pass=hjHpZvRN=6VT
+LNX_srv-intranet03 ansible_ssh_host=172.16.0.86 ansible_ssh_pass=i@aBFbffd2
+LNX_srv-intranet02 ansible_ssh_host=172.16.0.62 ansible_ssh_pass=uczNzAYbWJibuDs
+LNX_srv-intranet06 ansible_ssh_host=172.16.0.69 ansible_ssh_pass=w1PsEgXH(
+LNX_srv-intranet05 ansible_ssh_host=172.16.0.95 ansible_ssh_pass=yRjDEFVM^IY7C
+
+[laminariodigital]
+UBNT-SRV-WEB05 ansible_ssh_host=172.16.2.12 ansible_ssh_pass=qwe123@
+UBNT-SRV-WEB06 ansible_ssh_host=172.16.2.18 ansible_ssh_pass=qwe123@
+UBNT-SRV-WEB07 ansible_ssh_host=172.16.2.19 ansible_ssh_pass=qwe123@
+UBNT-SRV-WEB08 ansible_ssh_host=172.16.2.20 ansible_ssh_pass=qwe123@
+
+[memcached]
+REDHAT-WEB143-C02 ansible_ssh_host=172.16.4.123 ansible_ssh_pass=b@ARdIdC5
+REDHAT-APP20-C02 ansible_ssh_host=172.16.4.125 ansible_ssh_pass=efNu7N*Q
+REDHAT-APP20 ansible_ssh_host=172.16.4.95 ansible_ssh_pass=ikcS%BlYlb3
+REDHAT-APP15 ansible_ssh_host=172.16.4.118 ansible_ssh_pass=jfORQ(L0
+REDHAT-WEB141-C02 ansible_ssh_host=172.16.4.121 ansible_ssh_pass=l6UHRH%c
+REDHAT-APP21-C02 ansible_ssh_host=172.16.4.126 ansible_ssh_pass=qAyu0bRf^QC
+REDHAT-APP22 ansible_ssh_host=172.16.4.96 ansible_ssh_pass=qjmki8xTX$Lvp
+REDHAT-APP13 ansible_ssh_host=172.16.4.116, ansible_ssh_pass=qrcr(SGrNO3Z
+REDHAT-APP17 ansible_ssh_host=172.16.4.120 ansible_ssh_pass=smqFyJ3$oNRHj
+REDHAT-APP16 ansible_ssh_host=172.16.4.119 ansible_ssh_pass=srJ7jcVX*igE
+REDHAT-APP14 ansible_ssh_host=172.16.4.117 ansible_ssh_pass=vK9(aGTGJ
+REDHAT-WEB142-C02 ansible_ssh_host=172.16.4.122 ansible_ssh_pass=wL6i-XJvCQF
+REDHAT-APP12 ansible_ssh_host=172.16.4.115 ansible_ssh_pass=wtj^FLZkV7
+
+[nginx]
+REDHAT-WEB196-C05 ansible_ssh_host=172.16.4.201 ansible_ssh_pass=hBRFpa9Xw-DN
+REDHAT-WEB197-C05 ansible_ssh_host=172.16.4.202 ansible_ssh_pass=tjIj$2YL
+
+[objetivo]
+REDHAT-WEB312-C19 ansible_ssh_host=172.16.5.13 ansible_ssh_pass=ceamJEa2$
+REDHAT-NFS11-C19 ansible_ssh_host=172.16.0.168 ansible_ssh_pass=ljlQx9xUGjU%gK
+REDHAT-WEB313-C19 ansible_ssh_host=172.16.5.15 ansible_ssh_pass=vUsHvJ<1lq
+
+[periodicos]
+REDHAT-NFS03-c00 ansible_ssh_host=172.16.0.29 ansible_ssh_pass=g4JBpFvh^e
+REDHAT-WEB13-c00 ansible_ssh_host=172.16.0.32 ansible_ssh_pass=rPhFbwnWaR@8
+REDHAT-WEB12-c00 ansible_ssh_host=172.16.0.31 ansible_ssh_pass=rZAWaGX9Z(ePFG
+
+[portal-ead]
+REDHAT-WEB128 ansible_ssh_host=172.16.0.78 ansible_ssh_pass=iC-iBSUbW5
+REDHAT-WEB129 ansible_ssh_host=172.16.0.79 ansible_ssh_pass=q%uQDHa4ruxRU
+
+[portalcorporativomeu]
+REDHAT-WEB309-C26 ansible_ssh_host=172.16.5.83 ansible_ssh_pass=a^ytbMyZCR0Hl
+REDHAT-WEB308-C26 ansible_ssh_host=172.16.5.70 ansible_ssh_pass=bi2YIYl(Fzvvs
+REDHAT-NFS12-C26 ansible_ssh_host=172.16.0.139 ansible_ssh_pass=uHfod5Q&Je
+
+[serv_infra]
+REDHAT-APP83 ansible_ssh_host=172.16.10.50 ansible_ssh_pass=aNdf1jHbSC!b
+REDHAT-SQL20 ansible_ssh_host=172.16.0.203 ansible_ssh_pass=co8QUZ@eG
+REDHAT-APP28 ansible_ssh_host=172.16.0.116 ansible_ssh_pass=cSeFtyoKZxfV3)
+REDHAT-WEB23 ansible_ssh_host=172.16.5.87 ansible_ssh_pass=hEeVGlPJAZQuedslPh
+REDHAT-WEB18 ansible_ssh_host=172.16.0.16 ansible_ssh_pass=IbkKddDtwgRmoBHAULg
+REDHAT-APP19 ansible_ssh_host=172.16.1.131 ansible_ssh_pass=iMRoE@SXvzY9z
+REDHAT-APP43 ansible_ssh_host=172.16.0.171 ansible_ssh_pass=ip2E^Dsln
+REDHAT-APP54 ansible_ssh_host=172.16.5.100 ansible_ssh_pass=jMZJ*NsPOz1a
+REDHAT-APP07 ansible_ssh_host=172.16.0.36 ansible_ssh_pass=k2eHDDi(X
+REDHAT-APP08 ansible_ssh_host=172.16.4.21 ansible_ssh_pass=m9ZrwLNDpIS*
+REDHAT-APP03 ansible_ssh_host=172.16.0.202 ansible_ssh_pass=pvDL4f(G
+REDHAT-WEB11 ansible_ssh_host=172.16.0.33 ansible_ssh_pass=tHloHYgf5ON%
+REDHAT-APP10 ansible_ssh_host=172.16.0.28 ansible_ssh_pass=tvH3ee=P
+REDHAT-APP02 ansible_ssh_host=172.16.1.81 ansible_ssh_pass=tYW(WlpRhI8lS
+REDHAT-APP38 ansible_ssh_host=172.16.0.35 ansible_ssh_pass=uGg(CKeo1aSFj
+REDHAT-APP71 ansible_ssh_host=172.16.1.38 ansible_ssh_pass=w5wW-ElN
+REDHAT-APP18 ansible_ssh_host=172.16.0.50 ansible_ssh_pass=w6gu-QgS
+REDHAT-APP29 ansible_ssh_host=172.16.10.41 ansible_ssh_pass=wa2LP@HhAN
+CTOS-SRV-APP06 ansible_ssh_host=172.16.0.109 ansible_ssh_pass=wHNOh*DT4n
+CTOS-SRV-APP04 ansible_ssh_host=172.16.0.126 ansible_ssh_pass=whtV-3vUm
+REDHAT-APP45 ansible_ssh_host=172.16.0.81 ansible_ssh_pass=xmJ6DI%vyE
+REDHAT-APP06 ansible_ssh_host=172.16.0.149 ansible_ssh_pass=xpmlJ=EJ9
+REDHAT-APP04 ansible_ssh_host=172.16.0.199 ansible_ssh_pass=yilCA(GJTKp4
+REDHAT-DNS01 ansible_ssh_host=172.16.1.1, ansible_ssh_pass=z^irM3Dw
+REDHAT-APP05 ansible_ssh_host=172.16.0.230 ansible_ssh_pass=z6gkYVnW^P
+
+[sistemasead]
+REDHAT-WEB02 ansible_ssh_host=172.16.0.173 ansible_ssh_pass=aK(AbEJU7P
+REDHAT-WEB08 ansible_ssh_host=172.16.0.179 ansible_ssh_pass=bUDI@Xh7hMu
+REDHAT-WEB118 ansible_ssh_host=172.16.0.132 ansible_ssh_pass=e1^YnVivPDdi
+REDHAT-WEB01 ansible_ssh_host=172.16.0.172 ansible_ssh_pass=lW@QkiA4Cq
+REDHAT-WEB116 ansible_ssh_host=172.16.0.130 ansible_ssh_pass=pximoX$Gl3
+REDHAT-NFS15 ansible_ssh_host=172.16.1.33 ansible_ssh_pass=rNomV2!PpS
+REDHAT-WEB07 ansible_ssh_host=172.16.0.178 ansible_ssh_pass=vV0f^XKWNCqp
+
+[sso]
+REDHAT-APP56-C23 ansible_ssh_host=172.16.0.118 ansible_ssh_pass=aNb7IX^H
+REDHAT-APP44-C23 ansible_ssh_host=172.16.0.154 ansible_ssh_pass=cTaIEgtHzKj
+REDHAT-APP57-C23 ansible_ssh_host=172.16.0.119 ansible_ssh_pass=lRZM4ri%JH
+REDHAT-APP59-C23 ansible_ssh_host=172.16.0.122 ansible_ssh_pass=p4IxuM(E
+REDHAT-NFS10-C23 ansible_ssh_host=172.16.0.123 ansible_ssh_pass=pQCBOU)TZL5eA
+
+[studeo]
+REDHAT-WEB221-C17 ansible_ssh_host=172.16.4.166 ansible_ssh_pass=pwa^vdCFc9M
+REDHAT-NFS08-C17 ansible_ssh_host=172.16.4.105 ansible_ssh_pass=sJ^BYdMm8qMs
+REDHAT-WEB208-C17 ansible_ssh_host=172.16.4.171 ansible_ssh_pass=Unicesumar2015
+REDHAT-WEB218-C17 ansible_ssh_host=172.16.4.163 ansible_ssh_pass=Unicesumar2015
+REDHAT-WEB224-C17 ansible_ssh_host=172.16.4.212 ansible_ssh_pass=Unicesumar2015
+REDHAT-WEB225-C17 ansible_ssh_host=172.16.4.213 ansible_ssh_pass=Unicesumar2015
+REDHAT-WEB228-C17 ansible_ssh_host=172.16.4.216 ansible_ssh_pass=Unicesumar2015
+REDHAT-WEB232-C17 ansible_ssh_host=172.16.5.54 ansible_ssh_pass=Unicesumar2015
+REDHAT-WEB235-C17 ansible_ssh_host=172.16.5.57 ansible_ssh_pass=Unicesumar2015
+REDHAT-WEB316-C17 ansible_ssh_host=172.16.4.143 ansible_ssh_pass=Unicesumar2015
+REDHAT-WEB355-C17 ansible_ssh_host=172.16.5.126 ansible_ssh_pass=Unicesumar2015
+REDHAT-WEB360-C17 ansible_ssh_host=172.16.5.145 ansible_ssh_pass=Unicesumar2015
+SIG-STUD-B04-C17 ansible_ssh_host=172.16.5.20 ansible_ssh_pass=Unicesumar2015
+REDHAT-WEB239-C17 ansible_ssh_host=172.16.4.148 ansible_ssh_pass=Unicesumar2015
+REDHAT-WEB243-C17 ansible_ssh_host=172.16.4.200 ansible_ssh_pass=Unicesumar2015
+REDHAT-WEB250-C17 ansible_ssh_host=172.16.5.24 ansible_ssh_pass=Unicesumar2015
+REDHAT-WEB254-C17 ansible_ssh_host=172.16.5.28 ansible_ssh_pass=Unicesumar2015
+REDHAT-WEB260-C17 ansible_ssh_host=172.16.5.34 ansible_ssh_pass=Unicesumar2015
+BACK01_sy ansible_ssh_host=172.16.4.83 ansible_ssh_pass=Unicesumar2015
+Back06 ansible_ssh_host=172.16.4.155 ansible_ssh_pass=Unicesumar2015
+REDHAT-WEB306-C17 ansible_ssh_host=172.16.5.59 ansible_ssh_pass=Unicesumar2015
+REDHAT-WEB307-C17 ansible_ssh_host=172.16.5.65 ansible_ssh_pass=Unicesumar2015
+
+[unicesumaredubr]
+REDHAT-WEB21-c14 ansible_ssh_host=172.16.1.169 ansible_ssh_pass=an=WJonS6SZxV
+REDHAT-WEB270-C14 ansible_ssh_host=172.16.5.40 ansible_ssh_pass=bDWJjN7c@Myw
+REDHAT-WEB266-C14 ansible_ssh_host=172.16.5.0 ansible_ssh_pass=cV&iG2Yh
+REDHAT-WEB276-C14 ansible_ssh_host=172.16.5.46 ansible_ssh_pass=ddD9wWQ(y
+REDHAT-WEB133-C14 ansible_ssh_host=172.16.4.133 ansible_ssh_pass=fVIvjQYt1zA^
+REDHAT-NFS01-c14 ansible_ssh_host=172.16.4.140 ansible_ssh_pass=g5)Y3*g&@
+REDHAT-WEB272-C14 ansible_ssh_host=172.16.5.42 ansible_ssh_pass=hJx=DmxdJ0zqW
+REDHAT-WEB132-C14 ansible_ssh_host=172.16.4.132 ansible_ssh_pass=hKBB&gf9d
+REDHAT-WEB137-C14 ansible_ssh_host=172.16.4.137 ansible_ssh_pass=iGUYHrQU7)
+REDHAT-WEB134-C14 ansible_ssh_host=172.16.4.134 ansible_ssh_pass=iHaFooSKm1X(
+REDHAT-WEB130-C14 ansible_ssh_host=172.16.4.130 ansible_ssh_pass=j$hUT0gMv
+REDHAT-WEB131-C14 ansible_ssh_host=172.16.4.131 ansible_ssh_pass=jdBGuL$9
+REDHAT-WEB269-C14 ansible_ssh_host=172.16.5.39 ansible_ssh_pass=l$5HTDJc
+REDHAT-WEB277-C14 ansible_ssh_host=172.16.5.47 ansible_ssh_pass=lsZ5nXtg$wHmGB
+REDHAT-WEB273-C14 ansible_ssh_host=172.16.5.43 ansible_ssh_pass=mzlH5IN=M
+REDHAT-WEB22-c14 ansible_ssh_host=172.16.1.170 ansible_ssh_pass=p@FjEZd7
+REDHAT-WEB265-C14 ansible_ssh_host=172.16.4.165 ansible_ssh_pass=pR^fJDqniMF5
+REDHAT-WEB264-C14-RESTORE ansible_ssh_host=172.16.4.86 ansible_ssh_pass=ps7lHZw=W
+REDHAT-WEB268-C14 ansible_ssh_host=172.16.5.38 ansible_ssh_pass=s$e4DJYNpPOI
+REDHAT-WEB139-C14 ansible_ssh_host=172.16.4.139 ansible_ssh_pass=t3SDTWForz&yq
+REDHAT-WEB271-C14 ansible_ssh_host=172.16.5.41 ansible_ssh_pass=ud-DbwUn3
+REDHAT-WEB138-C14 ansible_ssh_host=172.16.4.138 ansible_ssh_pass=v4oFZFr%nRq
+REDHAT-WEB267-C14 ansible_ssh_host=172.16.5.1 ansible_ssh_pass=w4LLqkt*rgzHq
+REDHAT-WEB135-C14 ansible_ssh_host=172.16.4.135 ansible_ssh_pass=x3ywJ@gYJ
+REDHAT-WEB136-C14 ansible_ssh_host=172.16.4.136 ansible_ssh_pass=xZXd3*orS
+REDHAT-WEB274-C14-RESTORE ansible_ssh_host=172.16.5.44 ansible_ssh_pass=y5A(DdCE
+REDHAT-WEB275-C14 ansible_ssh_host=172.16.5.45 ansible_ssh_pass=yjwS@Hh6IK
+
+[universoead]
+CTOS-SRV-WEB22-c04 ansible_ssh_host=172.16.1.107 ansible_ssh_pass=a^7ZnYNB
+CTOS-SRV-WEB23-c04 ansible_ssh_host=172.16.1.109 ansible_ssh_pass=ehABhG^VT8NL
+REDHAT-NFS04-c04 ansible_ssh_host=172.16.0.5 ansible_ssh_pass=jXu*sp5n
+REDHAT-WEB198-c04 ansible_ssh_host=172.16.0.68 ansible_ssh_pass=x4NnvbKF^
+CTOS-SRV-WEB12-c04 ansible_ssh_host=172.16.1.108 ansible_ssh_pass=z4^epV9%&
+
+[webservices]
+REDHAT-WEB09 ansible_ssh_host=SYDLE Webservice ansible_ssh_pass=qdzcjgxtgnMO
+REDHAT-WEB10 ansible_ssh_host=SYDLE Webservice ansible_ssh_pass=r=YR1IsvLPRZT
+
+[youlead]
+REDHAT-WEB174-c16 ansible_ssh_host=172.16.4.176 ansible_ssh_pass=bJgr)zzSc5iOw
+REDHAT-WEB173-C16-Clone ansible_ssh_host=172.16.4.175 ansible_ssh_pass=nHljr0FimbC!
+REDHAT-WEB172-c16 ansible_ssh_host=172.16.4.174 ansible_ssh_pass=q$Vb1DrKaG
+
+[servers:children]
+api.ead.cesumar.br
+apiava
+apicentral
+apilocalava
+ava
+bd
+conteudoava
+devops
+impressaoprovas
+inscricoes
+integradorgsuite-api
+intranet
+laminariodigital
+memcached
+nginx
+objetivo
+periodicos
+portal_ead
+portalcorporativomeu
+serv_infra
+sistemasead
+sso
+studeo
+unicesumaredubr
+universoead
+webservices
+youlead
+
+[servers:vars]
+ansible_shell_executable=/bin/bash
+ansible_ssh_user=root
+ansible_become=yes
+ansible_become_method=sudo

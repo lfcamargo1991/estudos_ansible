@@ -1,0 +1,8 @@
+---
+
+- name: Instacao de pacotes
+  yum: name={{item}} state=latest
+  with_items:
+  - "{{ common_packages }}"
+
+...

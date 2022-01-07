@@ -1,0 +1,4 @@
+ansible_shell_executable: /bin/bash
+ansible_ssh_user: root
+ansible_become: yes
+ansible_become_method: sudo
