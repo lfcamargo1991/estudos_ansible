@@ -72,6 +72,7 @@ roles
     roles/vars/main.yml
 
     System Facts são descobertos pelo ansible: ansible <hostname> -m setup
+    ansible-playbook -i hosts playbook.yml<- exeutar tasks
 
 
 

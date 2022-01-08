@@ -1,0 +1,5 @@
+---
+- name: Default Playbook - Starting Deploy
+  hosts: k8s_lab
+  roles:
+    - common
