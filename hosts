@@ -4,3 +4,7 @@ jenkins_lab
 [api_ead_cesumar_br]
 REDHAT-WEB126-C13 ansible_ssh_host=172.16.0.76 ansible_ssh_pass=qPaTQTgi1%t
 REDHAT-WEB127-c13 ansible_ssh_host=172.16.0.77 ansible_ssh_pass=rghKYUQ*B7l
+
+[servers:children]
+k8s_lab
+api_ead_cesumar_br

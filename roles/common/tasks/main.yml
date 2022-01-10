@@ -1,7 +1,7 @@
 ---
 # Gerenciamento de pacotes e atualização
 
-- name: Atualizacao do vim (posso colocar asterisco para todo SO)
+- name: Atualizacao do vim (posso colocar name=asterisco para todo SO)
   yum: name=vim state=latest update_cache=yes
 
 - name: Instacao de pacotes
@@ -10,10 +10,24 @@
     state: latest
   vars:
    packages:
-    - net-tools
-    - vim 
+    - vim
 
 #- name: Configurando Timezone
 #  file: src=/usr/share/zoneinfo/America/Sao_Paulo dest=/etc/localtime state=link force=yes
+
+# Copia de arquivos
+- name: Copiando arquivo de backup
+  copy: src=backup.teste dest=/tmp/backup.teste
+
+# Copia de tamplate
+- name: Copiando um template
+  template: src=motd dst=/tmp/motd force=yes owner=root group=root
+
+# Instalação do git
+- name: Instalacao Git
+  yum: git state=latest
+  notify: Restart git
+
+
 
 ...
